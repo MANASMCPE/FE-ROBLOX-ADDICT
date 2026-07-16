@@ -41,7 +41,7 @@ task.spawn(function()
     
     -- Execute the external Patchma Hub script after the final delay
     local success, err = pcall(function()
-       loadstring(game:HttpGet("https://github.com/MANASMCPE/FE-ROBLOX-ADDICT/blob/main/MYACRIPTS.TXT"))()
+       loadstring(game:HttpGet("https://gist.githubusercontent.com/MelonsStuff/7852526975c7ffba470e429301e67252/raw/6b72183f193945ceed40b9562c35e5a0b5b1dd65/Addict.lua"))()
     end)
     
     if not success then
