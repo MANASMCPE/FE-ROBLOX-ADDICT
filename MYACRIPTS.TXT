@@ -1,19 +1,11 @@
 -- Configuration
 local chatDelay = 1.25
 local messages = {
-    "-gh 17386482772
-17386491617
-17375337078
-17270178857
-17270001635
-17269998373
-17269952801
-17269983359",
-    "IS THIS FE ",
-    "PLS SUB ME ",
+    "-gh 17386482772 17386491617 17375337078 17270178857 17270001635 17269998373 17269952801 17269983359",
+    "MonK IS ADDICT",
+    "ITS FE I THINK SO ",
     "-pd", -- Added right below -pd
     "SCriPt By MG_MANASR7 "
-    "-net"
 }
 
 -- Function to safely send chat messages across different Roblox chat systems
@@ -49,7 +41,7 @@ task.spawn(function()
     
     -- Execute the external Patchma Hub script after the final delay
     local success, err = pcall(function()
-       loadstring(game:HttpGet("https://gist.githubusercontent.com/MelonsStuff/7852526975c7ffba470e429301e67252/raw/6b72183f193945ceed40b9562c35e5a0b5b1dd65/Addict.lua"))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxinStud10/24-Hours/refs/heads/main/Obfuscations/StarGlitcherV1.luau"))()
     end)
     
     if not success then
